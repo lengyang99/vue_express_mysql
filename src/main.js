@@ -3,7 +3,7 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-import VueResource from 'vue-resource'
+import axios from 'axios'
 
 import {
   Pagination,
@@ -148,8 +148,8 @@ Vue.prototype.$confirm = MessageBox.confirm;
 Vue.prototype.$prompt = MessageBox.prompt;
 Vue.prototype.$notify = Notification;
 Vue.prototype.$message = Message;
+Vue.prototype.$http = axios;
 
-Vue.use(VueResource);
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */

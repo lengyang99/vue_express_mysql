@@ -6,8 +6,8 @@ module.exports = {
   mysql: {
     host: 'localhost',
     user: 'root',
-    password: '123456',
-    database: 'test',
+    password: 'ly15872810512',
+    database: 'vue_data',
     port: '3306'
   }
 }
